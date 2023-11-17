@@ -1,0 +1,28 @@
+{
+  "name": "nft-gated-website",
+  "version": "1.0.0",
+  "description": "Building very basic website only focused on \"gating\" functionality.",
+  "main": "Backend/Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuyashMehare/NFT-Gated-Website.git"
+  },
+  "author": "\"Suyash\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuyashMehare/NFT-Gated-Website/issues"
+  },
+  "homepage": "https://github.com/SuyashMehare/NFT-Gated-Website#readme",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "ethers": "^6.8.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.7.2"
+  }
+}
